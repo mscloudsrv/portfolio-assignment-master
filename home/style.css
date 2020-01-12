@@ -1,0 +1,856 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* <!-- Header Start Here --> */
+.head-1{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+.social-icon{
+    color: white;
+    margin: 10px 10px;
+    float: left;            
+}
+.fa{
+    margin: 10px;
+    cursor: pointer;
+}
+.fa:hover{
+    color:rgba(108, 243, 104, 0.966);
+}
+.contact-number{
+    color: white;
+    float: left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    margin: 10px; 
+    margin-left: 850px; 
+    cursor: pointer;  
+}
+.contact-number:hover{
+    color:rgba(108, 243, 104, 0.966);
+}
+#phone-icon .fa {
+    color: rgba(108, 243, 104, 0.966);
+    margin-right: 10px;
+}
+#phone-icon .fa:hover {
+    color:white;
+}
+.contact-us{
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+    font-size: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: bold;
+}
+#contact-button{
+    background-color:rgba(108, 243, 104, 0.966);
+    margin-top: 3px;
+    border-radius: 10%;
+    border: none;
+    color: black;
+    padding: 6px 6px;
+    text-align: center;
+    cursor: pointer;
+}
+#contact-button:hover{
+    color: rgb(231, 229, 229);
+}
+.main{
+    min-height: 80px;
+    width: 100%;
+    float: left;
+    font-family: 'Playfair Display', serif;
+}
+.main img{
+    margin-left: 10px;
+    margin-right: 150px;
+    background-color: white;
+    padding: 0;
+    float: left;
+}
+.main a{
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    color: black;
+    display: inline-block;
+    margin-top: 20px;
+}
+.main a:hover{
+    color:rgba(108, 243, 104, 0.966);
+}
+/* <!-- Header End Here --> */
+
+/* <!-- Experties Start Here --> */
+#more{
+    display: none;
+}
+.expert{
+    max-width: 100%;
+    min-height: 320px;
+    background-color: rgb(145, 200, 70);
+    margin-top: 80px;
+    text-align: center;
+    padding: 30px;
+}
+
+.expert h1{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+.expert p{
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+#myBtn{
+    background-color:rgba(108, 243, 104, 0.966);
+    margin-top: 3px;
+    border-radius: 10%;
+    box-shadow: 5px 5px 7px rgb(3, 3, 3);
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+}
+#myBtn:hover{
+    color: rgb(231, 229, 229);
+}
+/* <!-- Experties End Here --> */
+
+/* <!-- Advantages Start Here --> */
+.advantage{
+    max-width: 100%;
+    margin-top: 40px;
+    text-align: center;    
+}
+.advantage h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+.fontcolor{
+   color: rgb(145, 200, 70);
+}
+.advantage p{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.advantages{
+    width: 18%;
+    min-height: 15%;
+    display: block;
+    text-align: center;
+    padding: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    float: left;
+    overflow: auto;
+    cursor: pointer;
+    background-color: rgb(243, 236, 236);
+    color: lightslategray;
+}
+.advantages:hover{
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 4px 2px 6px gray;
+    color:black;
+}
+.heading-advantage{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: black;
+}
+.para-advantage{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 15px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+/* <!-- Advantages End Here --> */
+
+/* <!-- Services Start Here --> */
+.service{
+    max-width: 100%;
+    margin-top: 40px;
+    text-align: center;   
+}
+.service h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+.fontcolor{
+   color: rgb(145, 200, 70);
+}
+.service p{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.services{
+    width: 17%;
+    min-height: 10%;
+    display: block;
+    text-align: center;
+    padding: 2px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 4px 2px 6px gray;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 8px;
+    float: left;
+    overflow: auto;
+    cursor: pointer;
+    background-color: rgb(243, 236, 236);
+    color: lightslategray;
+}
+.services:hover{
+    color:black
+}
+.heading-services{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: black;
+}
+.para-services{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 15px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;   
+}
+/* <!-- Services End Here --> */
+
+/* Packages Start Here */
+.package{
+    max-width: 100%;
+    min-height: 600px;
+    background-color: rgb(145, 200, 70);
+    margin-top: 400px;
+    text-align: center;
+    padding: 20px;
+}
+.package h1{
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.package>p{
+    color: black;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+.packages{
+    width: 25%;
+    min-height: 10%;
+    display: block;
+    text-align: center;
+    padding: 12px;
+    margin-left: 80px;
+    margin-top: 20px;
+    float: left;
+    overflow: auto;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;   
+}
+.packages:hover{
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 4px 2px 6px gray;    
+}
+.heading-packages{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: black;
+}
+.para-packages{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 16px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+    line-height: 30px;
+}
+.discount-price{
+    color:rgb(145, 200, 70);
+    font-size: 45px;
+    line-height: 40px;
+    font-family: 'PT Serif', serif;
+}
+.del-price{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'PT Serif', serif;
+}
+/* Packages End Here */
+
+/* <!-- About-Us Start Here --> */
+.aboutus{
+    background-image: url(../images/icons/Aboutus/about-us.png);
+    width: 100%;
+    min-height: 460px;
+    margin-top: auto;
+    margin-bottom: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    overflow: auto;
+    border-radius: 10px;
+    border: 3px solid rgb(168, 167, 167);
+    box-shadow: 5px 4px 6px limegreen;
+}
+.aboutus h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 140px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    cursor: pointer;
+}
+
+.aboutus p{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 40%;
+    min-height: 15%;
+    display: block;
+    text-align: justify;
+    padding: 2px;
+    float: left;
+    overflow: auto;
+    cursor: pointer;
+}
+/* <!-- About Us End Here --> */
+
+/* <!-- Portfolio Start Here --> */
+.portfolio{
+    width: 100%;
+    background-color: black;
+    /* margin-top: 0px; */
+    text-align: center;
+    float: left;
+    overflow: auto;
+}
+.portfolio h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    cursor: pointer;
+}
+.portfolio p{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.portfolio-li{
+    list-style: none;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.portfolio-li:hover{
+    color:rgba(108, 243, 104, 0.966);
+}
+.portfolio img{
+    width: 80%;
+    margin: 20px;
+    margin-bottom: 60px;
+    display: inline-block;
+    /* border-radius: 1%; */
+    border: 2px solid limegreen
+}
+/* <!-- Portfolio End Here --> */
+
+/* <!-- Process Start Here --> */
+.process{
+    max-width: 100%;
+    margin-top: 40px;
+    text-align: center;    
+}
+.process h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+.fontcolor{
+   color: rgb(145, 200, 70);
+}
+.process p{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+}
+.container{
+    max-width: 100%;
+    margin-top: 30px;
+    text-align: justify;    
+}
+.process-img{
+    width: 15%;
+    min-height: 15%;
+    display: block;
+    text-align: center;
+    padding: 2px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: left;
+    overflow: auto;
+    cursor: pointer;    
+}
+.process-img:hover{
+    border: 2px solid gray;
+    border-radius: 50%;
+    box-shadow: 4px 2px 6px gray;
+    color:black;
+}
+.heading-process{
+    float: left;
+    width: 14%;
+    display: block;
+    font-size: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 17px;
+    margin-right: 17px;
+    padding:20px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: black;
+}
+.para-process{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 12px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/* <!-- Process End Here --> */
+
+/* Reviews Start Here */
+.review-people{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(214, 212, 212);
+    margin-top: 0 auto;
+    float: left;
+}
+.review-people-about-us h1{
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+}
+.review-people-about-us p{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.review-people-box{
+    width: 48%;
+    text-align: left;
+    float: left;
+    padding: 5px;
+    margin-top: 20px;    
+}
+.review-people-box img{
+    border-radius: 50%;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+.review-people-box h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+    float: left;    
+}
+.review-people-box p{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    float: left;
+    text-align: left;
+    margin-left: 190px;
+    padding: 20px;
+    margin-top: -130px;       
+}
+.b{
+    border-bottom: 2px solid rgb(68, 67, 67);
+} 
+#l{
+    border-left: 2px solid rgb(68, 67, 67);
+}
+/* Reviews End Here */
+
+/* Skills Start Here */
+.skill{
+    max-width: 100%;
+    margin-top: 40px;
+    text-align: center;   
+}
+.skill h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+.fontcolor{
+   color: rgb(145, 200, 70);
+}
+.skill p{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.skills{
+    width: 17%;
+    min-height: 10%;
+    display: block;
+    text-align: center;
+    padding: 2px;    
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 8px;
+    float: left;
+    overflow: auto;
+    cursor: pointer;
+    background-color: rgb(243, 236, 236);
+    color: lightslategray;
+}
+.skills:hover{
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 4px 2px 6px gray;
+    color:black
+}
+.heading-skills{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: black;
+}
+.para-skills{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 15px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;   
+}
+/* <!-- Skills End Here --> */
+
+/* <!-- New Project Start Here --> */
+.new-project{
+    max-width: 100%;
+    min-height: 320px;
+    background-color: rgb(145, 200, 70);
+    margin-top: 400px;
+    text-align: center;
+    padding: 30px;
+}
+.new-project h1{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    word-spacing: 2px;   
+}
+.new-project p{
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.new-project form{
+    text-align: center;
+    padding: 30px 50px 30px 50px;
+}
+.new-project input{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: -10px solid rgb(5, 5, 5);
+}
+#button{
+    background-color:rgba(108, 243, 104, 0.966);
+    margin-top: auto;
+    border-radius: 10%;
+    box-shadow: 5px 5px 7px rgb(3, 3, 3);
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+}
+/* <!-- New Project End Here --> */
+
+/* <!-- Contact Start Here --> */
+.contact{
+    max-width: 100%;
+    margin-top: 40px;
+    text-align: center;   
+}
+.contact h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+.fontcolor{
+   color: rgb(145, 200, 70);
+}
+.contact p{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contact-address p{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+.contact-address a{
+    width: 80%;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    color: black;
+}
+.contact iframe{
+    width: 90%;
+    min-height: 15%;
+    height: 300px;
+    background-position: center;
+    margin: 10px 10px;
+    padding-bottom: 20px;
+}
+/* Contact End Here */
+
+/* Footer Start Here */
+footer{
+    width: 100%;
+    background-color: rgb(145, 200, 70);
+    min-height: 300px;
+    color: white;
+    float: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.footer img{
+    margin-top: 20px;
+    margin-left: 30px;    
+}
+.footer p{
+    margin-top: 10px;
+    margin-left: 30px;    
+}
+#copy-right{
+    color: rgb(255, 255, 255);
+    font: bold;
+    font-family: 'Playfair Display', serif;
+    text-align: justify;
+    font-size: 15px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.footer-m h2{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.footer-m ul{
+    list-style: none;
+}
+.footer-m ul li{
+    line-height: 30px;
+    padding-left: 40px;
+    font-family: 'Playfair Display', serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    border-right: 2px solid rgb(124, 238, 139);
+}
+.footer-corner h2{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.footer-corner ul {
+    list-style: none;
+}
+.footer-corner ul li{
+    line-height: 30px;
+    padding-left: 10px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}   
+.gray{
+    padding-left: 18px;    
+}
+/* Footer End Here */
